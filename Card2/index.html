@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(78, 73, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+    width: 400px;
+    height: 600px;
+    background-color: aliceblue;
+    border: 2px solid rgb(184, 182, 180);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.card img{
+    width: 100%;
+    height: 40%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    width: 80%;
+    text-align: center;
+}
+
+#ammountbox{
+    width: 80%;
+    height: 10%;
+    background-color: rgb(71, 73, 75);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#leftbox{
+width: fit-content;
+height: 100%;
+display: flex;
+gap: 13px;
+align-items: center;
+}
+
+.imagebox{
+    height: 2rem;
+    width: 2rem;
+}
+
+.rightbox{
+
+}
+
+#payment{
+    width: 68%;
+    height: 8%;
+    background-color: rgb(0, 148, 216);
+    border-radius: 7px;
+}
+
+.cancel a{
+    text-decoration: none;
+    color: rgb(22, 24, 23);
+    font-weight: bold;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <!--Card 2 But Thoda Sa Different hai and  staylish bhee -->
+    <div class="container">
+        <div class="card">
+
+            <img src="./360_F_1834356781_43HHOh2SbIAOIeK5zIfH9jL7uWc7BoJW.jpeg" alt="">
+           <div class="textbox"> <h2>Order Karo</h2>
+            <p>
+                Abe Ye wala Item Bhot Jada Sasta hai Kharid Le Bhai sach bol rha hu bhot jada he
+            </p></div>
+
+            <div id="ammountbox">
+                <div id="leftbox">
+                    <div class="imagebox"><img src="./myspace-logo.png" alt=""></div>
+                </div>
+                <div class="textamountbox">
+                    <p>Amount</p>
+                    <p>$99.00</p>
+                </div>
+                <div class="rightbox">
+                    <a href="">change</a>
+                </div>
+            </div>
+                 
+           <button id="payment">Click Kro</button>
+           <div class="cancel"><a href="#">Cancel Kro</a></div>
+           
+        </div>
+    </div>
+
+</body>
+</html>
