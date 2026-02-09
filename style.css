@@ -1,0 +1,30 @@
+
+
+
+.cent{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(46, 48, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    width: 200px;
+    height: 60pxpx;
+    border: 1px solid #52888a;
+    background-color: rgb(159, 198, 231);
+    text-align: center;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(70, 22, 22);
+}
+
