@@ -1,0 +1,44 @@
+.container{
+width: 100vw;
+height: 100vh;
+
+
+background-color: rgb(44, 42, 39);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#child{
+width:20% ;
+height: 60%;
+background-color: antiquewhite;
+border-radius: 30px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+border: 1px solid rgb(68, 68, 66);
+}
+
+#small-child{
+width: 150px;
+height: 40px;
+background-color: rgb(54, 54, 32);
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+flex-wrap: wrap;
+padding-left: 20px;
+border-radius: 10px;
+border: 1px solid rgb(44, 30, 30);
+}
+
+h1{
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
