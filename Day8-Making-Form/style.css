@@ -1,0 +1,35 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+.for{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(174, 194, 194);
+    justify-content: center;
+    align-items: center;
+}
+
+.Form{
+   height: 50%;
+   width: 20%;
+   background-color: rgb(43, 46, 48);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid black;
+   border-radius: 20px;
+   gap: 10px;
+}
+
+label{
+    display: flex;
+    color: aliceblue;
+
+}
+
+input{
+    border-radius: 5px;
+}
