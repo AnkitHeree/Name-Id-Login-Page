@@ -56,15 +56,18 @@
 }
 
 .mouth{
-    width: 80%;
+    width: 100%;
     height: 20%;
     background-color:hwb(0 15% 83%);
     border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #mout {
-    height: 20%;
-    width: 20%;
+    height: 30%;
+    width: 50%;
     background-color: rgb(226, 208, 208);
     border: 2px solid black;
     border-radius: 20px;
