@@ -5,3 +5,15 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.container{
+    width: 300px;
+    height: 200px;
+    background: rgb(146, 113, 52);
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
