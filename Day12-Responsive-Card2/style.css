@@ -1,3 +1,5 @@
+
+
 body{
     height: 100vh;
     background-color: rgb(24, 21, 21);
@@ -8,12 +10,45 @@ body{
 
 .container{
     width: 300px;
-    height: 200px;
-    background: rgb(146, 113, 52);
+    
+    background: rgb(24, 20, 13);
     border: 2px solid black;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+}
+
+div img{
+    border-radius: 50%;
+    width: 60px;
+    
+    
+   
+}
+
+h2{
+    font-size: 1.2rem;
+    margin: 3px 3px;
+}
+
+button{
+    background: yellow;
+    width: 100px;
+    
+    border-radius: 10px;
+
+}
+
+@media (max-width:600px)
+{
+.container{
+     width: 90%;
+    height: 100px;
+}
+h2{
+    font-size: 1rem;
+    margin: 1px 1px;
+}
+
 }
