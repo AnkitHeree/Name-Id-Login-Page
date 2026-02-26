@@ -41,7 +41,7 @@ a{
     color: white;
 }
 
-@media(max-width:500px){
+@media(min-width:500px){
     .container{
         width: 100vh;
         height: 65px;
@@ -52,4 +52,17 @@ a{
         
         font-size:1rem ;
     }
+}
+@media(max-width:400px){
+.container{
+    width: 100px;
+   height: 400px;
+    flex-direction: column;
+    background-color: rgb(3, 63, 40);
+}
+
+.child{
+ flex-direction: column;
+ font-size: 1rem;
+}
 }
