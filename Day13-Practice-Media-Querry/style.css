@@ -66,3 +66,21 @@ a{
  font-size: 1rem;
 }
 }
+
+@media(min-width:700px) and (max-width:800px){
+.container{
+    width: 100vh;
+   height: 200px;
+    flex-direction: row;
+    background-color: rgba(10, 59, 167, 0.589);
+}
+
+.child{
+ flex-direction: row;
+ font-size: 1.5rem;
+}
+
+a{
+    color: rgba(0, 8, 2, 0.651);
+}
+}
