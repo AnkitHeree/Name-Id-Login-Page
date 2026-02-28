@@ -1,0 +1,121 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(29, 27, 27);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(48, 47, 47);
+    border-radius: 20px;
+}
+
+.child1{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.image-div img{
+width: 80px;
+height: 80px;
+border-radius: 50px;
+margin-left: 10px;
+margin-top: 10px;
+
+}
+
+.sub-div{
+    margin-top: 15px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.name{
+    font-size: 0.9rem;
+    padding-top: 3px;
+}
+
+.count{
+    font-size: 1.3rem;
+    padding-top: 3px;
+}
+
+.total{
+    font-size: 0.6rem;
+    font-weight: 100;
+    padding-top: 3px;
+}
+.divide{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.analytics{
+    margin-right: 230px;
+    padding: 8px;
+}
+
+h3{
+    font-size: 0.9rem;
+}
+
+.last {
+   
+}
+
+h5{
+    font-size: 0.6rem;
+    font-weight: normal;
+    opacity: 0.7;
+}
+
+.content{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+}
+
+.analytic-section{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.analytic-section h3{
+font-size: 1.5rem;
+}
+
+.analytic-section h5{
+font-size: 0.6rem;
+}
+
+.Update{
+    padding: 8px 0px 8px 40px;
+    font-size: 0.9rem;
+    
+}
+
