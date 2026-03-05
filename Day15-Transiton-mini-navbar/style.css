@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    height: 100px;
+    background-color: black;
+    border: 1px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition-property: all;
+    transition-duration: 1s;
+    
+   
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition-property: all;
+    transition: 0s;
+    transition-delay:0s;
+    transition-timing-function: ease-out;
+}
+
+a:hover{
+    color: yellow;
+    font-size: 1.6rem;
+}
+
+.navbar:hover{
+    height: 75px;
+
+}
+
+
