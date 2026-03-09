@@ -2,7 +2,7 @@ async function getWeather() {
 
     let city = document.getElementById("city").value;
 
-    let api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=720a22fbd4ff6ddef09ab916e0da7f62=metric`;
+    let api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=1956cfdf943c5838254d569d32a63de0=metric`;
 
     try {
 
