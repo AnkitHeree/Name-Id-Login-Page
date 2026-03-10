@@ -3,10 +3,17 @@
     margin: 0;
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container{
     padding: 5px;
-    width: 400px;
-    height: 400px;
+    width: 800px;
+    height: 800px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
