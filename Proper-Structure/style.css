@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: black;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    text-align: center;
+}
+
+.hero button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* Section */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* About */
+.about {
+    background: #f4f4f4;
+}
+
+/* Skills */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: black;
+    color: white;
+    padding: 20px;
+    width: 120px;
+}
+
+/* Projects */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #ddd;
+    padding: 20px;
+    width: 200px;
+}
+
+/* Contact */
+.contact input, .contact textarea {
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    padding: 10px;
+}
