@@ -11,7 +11,7 @@
     
 /* } */ 
 
-span{
+/* span{
     width: 300px;
     height: 200px;
     background-color: yellow;
@@ -21,7 +21,7 @@ span{
 div{
    width: 200px;
     background-color: blue;
-}
+} */
 
 .content{
 
@@ -41,7 +41,7 @@ div{
     margin-top: 10px;
 }
 
-h1{
+.hel{
 
 text-align: center;
 }
