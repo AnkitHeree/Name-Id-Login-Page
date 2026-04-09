@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  <style>
+    body{
+        font-family: Arial;
+        background-color: #f4f4f4;
+    }
+
+.accordion{
+    width: 400px;
+    margin: 50px auto;
+}
+
+.accordion-item{
+    background-color: rgb(150, 21, 21);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+
+.accordion-header{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: white;
+}
+
+.accordion-content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 15px;
+    background-color: #eee;
+}
+
+.accordion-content p{
+    margin: 10px 0;
+}
+
+.icon{
+    transition: transform 0.3s;
+}
+
+.accordion-item.active .accordion-content{
+    max-height: 150px;
+    padding: 15px;
+}
+
+.accordion-item.active .icon{
+    transform: rotate(45deg);
+}
+
+  </style>
+
+<body>
+   
+    <div class="accordion">
+
+        <div class="accordion-item">
+            <button class="accordion-header">
+                <span>What is a Civilization</span><span class="icon">+</span>
+            </button>
+
+            <div class="accordion-content">
+                <p>A civilization is a part of Human Journey</p>
+            </div>
+        </div>
+
+         <div class="accordion-item">
+            <button class="accordion-header">
+                <span>What is a Civilization</span><span class="icon">+</span>
+            </button>
+
+            <div class="accordion-content">
+                <p>A civilization is a part of Human Journey</p>
+            </div>
+        </div>
+
+         <div class="accordion-item">
+            <button class="accordion-header">
+                <span>What is a Civilization</span><span class="icon">+</span>
+            </button>
+
+            <div class="accordion-content">
+                <p>A civilization is a part of Human Journey</p>
+            </div>
+        </div>
+
+    </div>
+   
+    <script>
+
+      var headers = document.getElementsByClassName("accordion-header");
+
+for (var i = 0; i < headers.length; i++) {
+
+  headers[i].addEventListener("click", function() {
+
+    var item = this.parentElement;
+
+    // Check: already open hai kya?
+    if (item.classList.contains("active")) {
+      item.classList.remove("active");
+    } else {
+
+      // Sab band karo
+      var allItems = document.getElementsByClassName("accordion-item");
+      for (var j = 0; j < allItems.length; j++) {
+        allItems[j].classList.remove("active");
+      }
+
+      // Current open karo
+      item.classList.add("active");
+    }
+
+  });
+
+}
+
+    </script>
+
+</body>
+</html>
