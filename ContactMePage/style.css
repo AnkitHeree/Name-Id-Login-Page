@@ -5,24 +5,33 @@ box-sizing: border-box;
 font-family: Arial;
 }
 
+:root{
+    --background-color: rgba(5, 5, 5, 0.89);
+   --color: white;
+   --container:rgb(121, 119, 119);
+   --Child:rgb(92, 90, 90);
+   --border:rgba(83, 77, 77, 0.911);
+
+}
+
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgba(37, 158, 167, 0.555);
+    background-color:var(--background-color)
 }
 
 .container{
     width: 300px;
-    background-color: rgba(3, 141, 184, 0.808);
+    background-color: var(--container);
     border-radius: 20px;
     padding: 30px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--color);
     border: 1px solid wheat;
 }
 
@@ -31,7 +40,8 @@ body{
     height: 70px;
     background-color: black;
     border-radius: 50px;
-    border: 4px solid white;
+    border: 4px solid rgba(18, 198, 230, 0.541);
+    box-shadow: 10px -0.1px 40px rgb(236, 233, 233);
 }
 
 .Containerheading{
@@ -62,7 +72,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: var(--Child);
     border-radius: 10px;
     padding: 10px;
     border: 0.9px solid skyblue;
@@ -91,16 +101,16 @@ gap: 10px;
 .child2{
     width: 80x;
     height: 60px;
-    background-color: aqua;
+    background-color: var(--Child);
     padding: 0px 33.5px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: white;
+    color:var(--color);
     font-weight: 600;
     font-size: 0.8rem;
     border-radius: 10px;
-    border: 1px solid;
+    border: 1px solid skyblue;
 }
 
 button{
